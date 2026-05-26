@@ -1,0 +1,17 @@
+[project]
+name = "sequential-anomaly-detection"
+version = "0.1.0"
+description = "Anomaly detection using Normalizing Flows, Diffusion Models, and LSTM on NASA SMAP/MSL"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0.0",
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "scikit-learn>=1.3.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "jupyter>=1.0.0",
+    "ipykernel>=6.20.0",
+    "tqdm>=4.65.0",
+    "requests>=2.28.0",
+]
