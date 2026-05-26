@@ -5,6 +5,7 @@ description = "Anomaly detection using Normalizing Flows, Diffusion Models, and 
 requires-python = ">=3.10"
 dependencies = [
     "torch==2.7.1+cu128",
+    "optuna>=4.0.0",
     "numpy>=1.24.0",
     "pandas>=2.0.0",
     "scikit-learn>=1.3.0",
